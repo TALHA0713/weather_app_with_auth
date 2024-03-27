@@ -20,11 +20,9 @@ let userSchema = mongoose.Schema(
     } ,
     address:{
       type:String,
-      required: true
     },
     number:{
       type:Number,
-      required: true
     },
   },
   { timestamps: true }
